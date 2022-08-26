@@ -1,0 +1,19 @@
+.flexContainer{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    /*height: 100%;*/
+   align-items: center;
+   justify-content: center;
+
+}
+.imageDisplay{
+    height: 100%;
+    width: 35%;
+    padding: 2px;
+    
+}
+img:hover{
+    opacity: 0.8;
+    transition: 1ms;
+}
